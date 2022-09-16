@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <link rel="stylesheet" href="./library/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="./track_order.css">
+   <link rel="icon" href="https://i.pinimg.com/originals/cf/e5/3f/cfe53f3bb91329718ac4f6bb521fb5cf.jpg">
+   <title>GRACIUOS.GARMENTS</title>
+   <style>
+
+      a.close-menu-btn {
+         position: absolute;
+         top: 09;
+         top: 0;
+         left: 0;
+         width: 50px;
+         height: 50px;
+         display: none;
+         background: #111;
+         font-size: 25px;
+         color: #fff;
+         justify-content: center;
+         align-items: center;
+      }
+
+      button.open-nav-btn {
+         width: 50px;
+         height: 50px;
+         background: #f6f6f6;
+         border: none;
+         display: none;
+         justify-content: center;
+         align-items: center;
+         text-decoration: none;
+         font-size: 25px;
+         color: #111;
+      }
+
+   @media (max-width:991px){
+
+      body{
+         overflow-x:hidden;
+      }
+
+      nav.navbar-tainer {
+         position: fixed;
+         top: 0;
+         right: -100%;
+         width: 300px;
+         height: 100% !important;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         background: #fff;
+      }
+
+      #navbar nav ul {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+      }
+
+      .navbar-section ul {
+         display:flex;
+         justify-content:center;
+         align-items:center;
+         flex-direction:column;
+         background:#fff;
+      }
+      .sticky-top.navbar-section {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      a.close-menu-btn{
+         display:inline-flex;
+      }
+      button.open-nav-btn{
+         display: inline-flex;
+      }
+      #navbar nav ul{
+         padding: 0px !important;
+      }
+      .navbar-tainer.active{
+         right:0;
+      }
+      .end{
+         display: none;
+      }
+      .start{
+         display: none;
+      }
+
+      #header {
+         justify-content: center !important;
+      }
+   }
+
+</style>
+</head>
+
+<body>
+   <!-- TOP MARQUEE START-->
+   <section id="main_marquee">
+      <marquee behavior="scroll" scrollamount="5">
+         <span>Gracious.Garment | </span>Free Shippping on all orders above PKR <strike>2999.</strike><span> | 1999.</span>
+      </marquee>
+   </section>
+   <!-- TOP MARQUEE END-->
+
+   <!-- LOGO START -->
+   <section id="header">
+      <div class="start">
+         <a  class="active" href="./track_order.html"><i class="bi bi-truck"></i>Track Your Order Here</a>
+      </div>
+      <div class="center">
+         <a href="./index.html"><img src="./images/LOGO_golden.png" style="height: 240px; width: 220px;"></a>
+      </div>
+      <div class="end">
+         <div class="search">
+            <input type="search" placeholder="Search">
+            <a href="#"><i class="bi bi-search"></i></a>
+         </div>
+         <div class="links">
+            <a href="./login_form.html"><i class="bi bi-person"></i></a>
+            <a href="./user_bag.html"><i class="bi bi-cart3"></i></a>
+         </div>
+      </div>
+   </section>
+   <!-- LOGO END -->
+
+<!-- NAVIGATION START -->
+<section id="navbar" class="sticky-top navbar-section">
+   <button class="open-nav-btn"><ion-icon name="menu-outline"></ion-icon></button>
+   <nav class="navbar-tainer">
+      <a href="#" class="close-menu-btn"><ion-icon name="close-outline"></ion-icon></a>
+      <ul>
+         <li><a href="./new_arrivals.html">NEW ARRIVALS</a></li>
+         <li><a href="./index.html">HOME</a></li>
+         <li><a href="./women.html">WOMEN</a></li>
+         <li><a href="./men.html">MEN</a></li>
+         <li><a href="./luxury_pret.html">LUXURY PRET</a></li>
+         <li><a href="./comparesion.html">PRO-COMPARISON</a></li>
+         <li><a href="./new_sale.html" style="color: #fff; font-weight: 500; font-size: 13px; border: 1px solid #cc0033; background: #cc0033; padding: 5px;">NEW SALE</a></li>
+         <li><a href="./contact_us.html">CONTACT US</a></li>
+      </ul>
+   </nav>
+</section>
+<!-- NAVIGATION END -->
+            <!-- TOP SCROLL START -->
+            <section id="scroll_top">
+               <div class="scroll">
+                  <a href="#main_marquee"><i class="bi bi-chevron-double-up"></i></a>
+               </div>
+            </section>
+            <!-- TOP SCROLL END -->
+   
+            <!-- TOP SCROLL 2 START -->
+      <section id="scroll_top_2">
+         <div class="scroll_2">
+            <a href="./faqs.html"><i class="bi bi-question-circle" style="padding-right: 7px;"></i>FAQ'S</a>
+         </div>
+      </section>
+      <!-- TOP SCROLL 2 END -->
+
+   <!-- TRACK-ORDER START -->
+   <section id="main_track_order">
+      <div class="track_order">
+         <h3>Track Your Order</h3>
+      <input type="text" placeholder="Order Number" required>
+      <button><i class="fa-solid fa-binoculars"></i> TRACK</button>
+      </div>
+   </section>
+   <!-- TRACK-ORDER END -->
+
+   <!-- FOOTER START -->
+   <section id="main-footer">
+      <footer>
+         <div class="logo">
+            <img src="./images/LOGO_golden.png" style="height: 250px; width: 230px;">
+         </div>
+         <div class="main-links">
+            <h3>USEFUL LINKS</h3>
+            <div class="links">
+               <ul>
+                  <li><a href="./new_arrivals.html">New Arrivals</a></li>
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./women.html">Womans</a></li>
+                  <li><a href="./men.html">Mens</a></li>
+                  <li><a href="./luxury_pret.html">Luxury Pret</a></li>
+                  <li><a href="./new_sale.html">New Sale</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="main-contact">
+            <h3>CONTACT US</h3>
+            <div class="contact">
+               <a href="https://web.whatsapp.com/">
+                  <p><i class="bi bi-whatsapp"></i><strong style="padding-left: 5px;">WhatsApp : </strong>+92-3362304926</p>
+               </a>
+               <a href="">
+                  <p><i class="bi bi-telephone"></i><strong style="padding-left: 5px;">Call Us : </strong>+92-3357544132</p>
+               </a>
+               <a href="https://mail.google.com/mail/u/0/#inbox">
+                  <p><i class="bi bi-envelope"></i><strong style="padding-left: 5px;">Emails : </strong><span>ammadullah1714@gmail.com</span></p>
+               </a>
+            </div>
+            <div class="contact-icons-links">
+               <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+               <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+               <a href="https://web.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
+            </div>
+         </div>
+         <div class="main-info">
+            <h3>ADDITIONAL INFO</h3>
+            <div class="info">
+               <p>7 Days Money Back Guarantee</p>
+               <p>Delivery at Door Step in 2 to 3 <br> working days</p>
+               <p><i class="bi bi-currency-dollar" style="color: #ab8025; padding-right: 5px;"></i>Payment: Cash On Delivery</p>
+            </div>
+         </div>
+      </footer>
+      <div class="referance">
+         <p>© Copyright 2022 | <span>Gracious Garment Company</span></p>
+      </div>
+   </section>
+   <!-- FOOTER END -->
+
+   
+</body>
+<script>
+
+   const menuBtn = document.querySelector('.open-nav-btn');
+   const closeBtn = document.querySelector('.close-menu-btn');
+   const navBar = document.querySelector('.navbar-tainer');
+
+   menuBtn.addEventListener('click', () => {
+      navBar.classList.add('active');
+   })
+
+   closeBtn.addEventListener('click', () => {
+      navBar.classList.remove('active');
+   }) 
+
+</script>
+<script src="./library/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
